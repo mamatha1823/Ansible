@@ -1,0 +1,14 @@
+- name: info  from Vars prompt
+  hosts: web2
+  vars_prompt:
+    - name: course
+      prompt: please enter the course name
+    - name: duration 
+      prompt:  please enter the duration of the course"
+    - name: Purpose
+      prompt: please enter the purpose
+      private: false
+  tasks:
+    - name: Final info
+      ansible.builtin.debug:
+       msg: " Hi {{course}} {{duration}} {{purpose}}"
