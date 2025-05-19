@@ -1,0 +1,14 @@
+- name: variable preference
+  hosts: web
+  vars:
+    course: "Devops from play-level"
+  var_files:
+    var.yaml
+  vars_prompt:
+    name: course
+    prompt: "enter the course name"
+  tasks:
+    - name: from task level
+      course: "ANSIBLE"
+      ansible.builtin.debug:
+        msg: "the course is {{course}}"
