@@ -1,6 +1,14 @@
 - name: Play-01
-  hosts: web
+  hosts: web1
   tasks: 
    - name: Play-01  Task-01
      ansible.builtin.debug:
       msg: "This is from Play-01 and task-01"
+       
+-  name: Play-02
+   hosts: web2
+   tasks:
+    - name: Play-02 Task-02
+      ansible.builtin.package:
+        -name: postfix
+         state: present
