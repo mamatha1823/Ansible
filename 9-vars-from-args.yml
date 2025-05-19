@@ -1,0 +1,6 @@
+- name: info from args
+  hosts: web1
+  tasks:
+   - name: print info
+     ansible.builtin.debug:
+      msg: "this is from args and details are {{course}} and {{Duration}}"
