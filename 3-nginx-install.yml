@@ -1,6 +1,6 @@
 - name: nginx install
   hosts: web2
-  become: yes
+  #become: yes
   tasks: 
      - name: install nginx
        ansible.builtin.package:
@@ -9,7 +9,7 @@
 
      - name: start and enable Run services
        ansible.builtin.service:
-        name: systemctl
+        name:  nginx
         state: started
         enabled: yes
 
