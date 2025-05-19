@@ -1,5 +1,5 @@
 - name: print the msg
-  hosts: web
+  hosts: web1
   vars:
     course: "Devops"
     duration: "120Hrs"
