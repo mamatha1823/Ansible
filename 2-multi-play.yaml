@@ -10,5 +10,5 @@
    tasks:
     - name: installing postfix pack
       ansible.builtin.package:
-        - name: postfix
-          state: present
+      - name: postfix
+        state: present
