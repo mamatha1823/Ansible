@@ -1,0 +1,6 @@
+- name : var info
+  hosts: web1
+  tasks:
+    - name: to get total info
+      ansible.builtin.debug:
+       msg: "hi the {{course}} is "
