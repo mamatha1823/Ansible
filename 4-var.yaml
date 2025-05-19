@@ -1,8 +1,8 @@
 - name: print the msg
   hosts: web1
   vars:
-    course: "Devops"
-    duration: "120Hrs"
+    course: Devops
+    duration: 120Hrs
   tasks:
     - name: print the msg
       ansible.builtin.debug:
