@@ -7,9 +7,9 @@
        
 -  name: Play-02
    hosts: web2
+   become: yes
    tasks:
     - name: installing postfix pack
       ansible.builtin.package:
         name: postfix
-        become: yes
         state: present
