@@ -1,5 +1,5 @@
 - name: variables to be printed
-  hosts: web
+  hosts: web1
   vars: #play-level 
     course: Devops
     duration: 120Hrs
