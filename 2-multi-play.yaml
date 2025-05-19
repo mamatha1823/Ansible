@@ -10,5 +10,5 @@
    tasks:
     - name: Play-02 Task-02
       ansible.builtin.package:
-        -name: postfix
-         state: present
+        - name: postfix
+          state: present
