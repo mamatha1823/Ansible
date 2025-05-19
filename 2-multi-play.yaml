@@ -3,3 +3,4 @@
   tasks: 
    - name: Play-01  Task-01
      ansible.builtin.debug:
+      msg: "This is from Play-01 and task-01"
