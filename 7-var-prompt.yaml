@@ -11,4 +11,4 @@
   tasks:
     - name: Final info
       ansible.builtin.debug:
-       msg: " Hi {{course}} {{duration}} {{purpose}}"
+       msg: " Hi {{course}} {{duration}} {{Purpose}}"
