@@ -1,0 +1,16 @@
+- name: nginx install
+  hosts: web1
+  tasks: 
+      name: install nginx
+      ansible.buitin.package:
+        name: nginx
+        state: present
+
+      name: start and enable Run services
+      ansible.builtin.service:
+        name: systemctl
+        state: started
+        enabled: yes
+
+
+     
