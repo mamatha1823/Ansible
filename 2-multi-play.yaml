@@ -8,7 +8,7 @@
 -  name: Play-02
    hosts: web2
    tasks:
-    - name: Play-02 Task-02
+    - name: installing postfix pack
       ansible.builtin.package:
         - name: postfix
           state: present
