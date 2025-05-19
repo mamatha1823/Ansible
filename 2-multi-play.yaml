@@ -12,4 +12,4 @@
     - name: installing postfix pack
       ansible.builtin.package:
         name: postfix
-        state: present
+        state: absent
