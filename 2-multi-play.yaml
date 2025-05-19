@@ -11,4 +11,5 @@
     - name: installing postfix pack
       ansible.builtin.package:
         name: postfix
+        become: yes
         state: present
