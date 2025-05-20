@@ -19,5 +19,5 @@
   tasks: 
    - name: print the info
      ansible.builtin.debug:
-        msg: " hi course is {{course}} with duration of {{time}} and topics are {{topics}} and tools are{{tools}}"
+        msg: " hi course is {{course}} with duration of {{time}} and topics are {{topics}} and tools are {{tools}}"
      
