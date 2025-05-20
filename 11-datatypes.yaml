@@ -11,7 +11,7 @@
    ci: jenkins
    cm: ansible
    cloud: aws
-    aws:
+  aws:
       - s3
       - IAM
 
