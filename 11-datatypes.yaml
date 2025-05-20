@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-    name: :Devops_aws"
+    course: Devops_aws"
     time: 120
     topics:
      - ansible
