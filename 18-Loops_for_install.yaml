@@ -3,7 +3,7 @@
   tasks:
     - name: install s/w with loops
       ansible.builtin.package:
-        name: "{{item}}""
+        name: "{{item}}"
         state: present
       loop:
       - postfix
