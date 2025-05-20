@@ -3,7 +3,8 @@
   tasks:
     - name: install s/w with loops
       ansible.builtin.package:
-        msg: "installing the {{item}}"
+        name: {{item}}
+        state: present
       loop:
         - postfix
         - ansible
