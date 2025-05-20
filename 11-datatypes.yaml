@@ -9,10 +9,10 @@
      - python
      - linux
     tools:
-    ci: jenkins
-    cm: ansible
-    cloud: aws
-    aws:
+     ci: jenkins
+     cm: ansible
+     cloud: aws
+     aws:
       - s3
       - IAM
 
