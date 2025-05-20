@@ -6,7 +6,7 @@
         name: "{{item}}""
         state: present
       loop:
-        - postfix
-        - ansible
-        - nginx
+      - postfix
+      - ansible
+      - nginx
   hosts: web1
