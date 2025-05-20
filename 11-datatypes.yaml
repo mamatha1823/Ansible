@@ -11,9 +11,9 @@
    ci: jenkins
    cm: ansible
    cloud: aws
-   aws:
-     - s3
-     - IAM
+    aws:
+      - s3
+      - IAM
 
   tasks: 
    - name: print the info
