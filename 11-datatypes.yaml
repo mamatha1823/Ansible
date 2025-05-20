@@ -4,15 +4,15 @@
   vars:
     name: :Devops_aws"
     time: 120
-  topics:
+    topics:
      - ansible
      - python
      - linux
-  tools:
-   ci: jenkins
-   cm: ansible
-   cloud: aws
-   aws:
+    tools:
+    ci: jenkins
+    cm: ansible
+    cloud: aws
+    aws:
       - s3
       - IAM
 
