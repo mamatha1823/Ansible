@@ -2,7 +2,7 @@
   become: yes
   tasks:
     - name: install s/w with loops
-      ansible.builtin.debug:
+      ansible.builtin.package:
         msg: "installing the {{item}}"
       loop:
         - postfix
