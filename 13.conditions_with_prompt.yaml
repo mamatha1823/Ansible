@@ -4,6 +4,7 @@
   vars_prompt:
     name: number
     prompt: "enter the number to check whether greater than 10 or not"
+    private: false #to make the info entered visible
   tasks:
     - name: to check the number if less than 10
       ansible.builtin.debug:
