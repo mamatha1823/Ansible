@@ -10,4 +10,3 @@
       - ansible
       - nginx
   hosts: web1
-  
