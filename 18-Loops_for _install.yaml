@@ -1,0 +1,11 @@
+- name: loops
+  become: yes
+  tasks:
+    - name: install s/w with loops
+      ansible.builtin.debug:
+        msg: "installing the {{item}}"
+      loop:
+        -postfix
+        -ansible
+        -nginx
+  hosts: web1
