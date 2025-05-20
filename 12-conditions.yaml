@@ -1,7 +1,7 @@
 - name: condition whethe num is less than 10
   hosts: local
   connection: local
-  Vars:
+  vars:
     number: 14
   vars_prompt:
     name: number
