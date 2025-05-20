@@ -1,5 +1,6 @@
 - name: loops
   become: yes
+  hosts: web1
   tasks:
     - name: install s/w with loops
       ansible.builtin.package:
@@ -9,4 +10,4 @@
       - postfix
       - ansible
       - nginx
-  hosts: web1
+  
