@@ -1,0 +1,22 @@
+- name: datatypes
+  hosts: local
+  vars:
+    name: :Devops_aws"
+    time: 120
+  topics:
+     - ansible
+     - python
+     - linux
+  tools:
+   ci: jenkins
+   cm: ansible
+   cloud: aws
+   aws:
+     - s3
+     - IAM
+
+  tasks: 
+   - name: print the info
+     ansible.builtin.debug:
+      msg: " hi course is {{course}} with duration of {{time}} and topics are {{topics}} and tools are{{tools}}"
+     
