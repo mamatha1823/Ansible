@@ -4,8 +4,8 @@
   tasks:
    - name: filteration 
      ansible.builtin.package:
-      name: "{{item.name}}""
-      state: "{{item.state}}""
+      name: "{{item.name}}"
+      state: "{{item.state}}"
      loop:
      - { name: 'nginx' ,state: 'absent'}
      - { name: 'ansible' , state: present}
