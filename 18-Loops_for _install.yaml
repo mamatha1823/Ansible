@@ -5,7 +5,7 @@
       ansible.builtin.debug:
         msg: "installing the {{item}}"
       loop:
-        -postfix
-        -ansible
-        -nginx
+        - postfix
+        - ansible
+        - nginx
   hosts: web1
