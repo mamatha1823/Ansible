@@ -3,9 +3,9 @@
   connection: local
   vars:
     number: 14
-  vars_prompt:
-    name: number
-    prompt: "enter the number"
+  # vars_prompt:
+  #   name: number
+  #   prompt: "enter the number"
  
   tasks:
     - name: to check the number if less than 10
